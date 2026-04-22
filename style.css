@@ -45,16 +45,9 @@ footer {
     justify-content: space-evenly;
 }
 
-#add-number{
-    width: 100px;
-}
+/* botões */
 
-#finish{
-    width: 250px;
-}
-
-#add-number, #finish {
-    background-color: rgb(104, 104, 233);
+#add-number, #finish, #clear {
     color: white;
     font-weight: bold;
     padding: 10px;
@@ -62,12 +55,29 @@ footer {
     transition: transform 0.3s ease, box-shadow 0.2s ease;
 }
 
-#add-number:hover, #finish:hover {
+#add-number:hover, #finish:hover, #clear:hover {
     transform: scale(1.05);
 }
 
-#add-number:active, #finish:active{
+#add-number:active, #finish:active, #clear:active{
     transform: scale(0.95);
+}
+
+/*botões separados*/
+
+#add-number{
+    width: 100px;
+    background-color: rgb(104, 104, 233);
+}
+
+#finish{
+    width: 200px;
+    background-color: rgb(104, 104, 233);
+}
+
+#clear{
+    width: 200px;
+    background-color:  #e53935;
 }
 
 #number {
@@ -94,7 +104,6 @@ footer {
     padding: 5px;
     border-radius: 8px;
     border: 2px solid #ccc;
-
 }
 
 #numbers option {
