@@ -24,12 +24,19 @@
             </select>
         </div>
         <div class="actions">
-            <button id="clear">Limpar</button>
-            <button id="finish">Finalizar</button>
+            <button id="clear" onclick="clean()">Limpar</button>
+            <button id="finish" onclick="calculation()">Finalizar</button>
+        </div>
+        <div id="res">
+            <p class="qnt"></p>
+            <p class="maior"></p>
+            <p class="menor"></p>
+            <p class="soma"></p>
+            <p class="media"></p>
         </div>
     </section>
     <footer>
-        <p>&copy; Curso em video</p>
+        <p>&copy; Matheus Cortinovis</p>
     </footer>
 </body>
 <script src="src/index.js"></script>

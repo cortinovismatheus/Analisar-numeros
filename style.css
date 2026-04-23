@@ -111,3 +111,12 @@ footer {
     color: black;
     font-size: 15px;
 }
+
+#res{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5px;
+    font-size: medium;
+}
